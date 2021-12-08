@@ -1,0 +1,32 @@
+1:
+  carrots: 5
+  name: '&eThe first one'
+  lore:
+  - '&cThe starter one'
+  - '&cAmount: &e{amount}'
+  material: WOOD
+  message: '&cCongrats for buy the first Special Hoe'
+2:
+  carrots: 6
+  name: '&cThe second one'
+  lore:
+  - '&cThe second one'
+  - '&cAmount: {amount}'
+  material: STONE
+  message: '&cYour hoe just upgraded. Congrats!'
+3:
+  carrots: 7
+  name: '&aThe third one'
+  lore:
+  - '&cThe Third one'
+  - '&cAmount: {amount}'
+  material: GOLD
+  message: '&cYour hoe just upgraded. Congrats!'
+4:
+  carrots: 8
+  name: '&2The fourth one'
+  lore:
+  - '&cThe best one'
+  - '&cAmount: {amount}'
+  material: IRON
+  message: '&cYour hoe just upgraded. Congrats!'

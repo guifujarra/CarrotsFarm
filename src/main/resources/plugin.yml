@@ -1,0 +1,6 @@
+name: CarrotsFarm
+main: me.guifujarra.carrotsfarm.Main
+version: 1.0
+commands:
+  specialhoe:
+    aliases: [sh, spechoe]
