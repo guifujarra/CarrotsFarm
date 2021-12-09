@@ -32,11 +32,10 @@ public class BlockBreak implements Listener {
         }
         //If all validations are ok
 
-        //Hoe actions
-        new SpecialHoeFarm().execute(e);
+        //Hoe action
         new ReplantCarrot().execute(e);
         //Player actions
-        new PlayerFarm().execute(e.getPlayer());
+        new PlayerFarm(e).execute(e.getPlayer());
 
     }
 }
