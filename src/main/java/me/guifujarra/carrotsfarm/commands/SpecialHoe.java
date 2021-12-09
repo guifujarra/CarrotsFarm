@@ -11,7 +11,8 @@ public class SpecialHoe implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("specialhoe")) {
-            if (sender instanceof Player p) {
+            if (sender instanceof Player) {
+                Player p = (Player) sender;
                 BuyMenu.open(p);
                 return true;
             }
